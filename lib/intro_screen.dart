@@ -26,6 +26,7 @@ class _IntroScreenState extends State<IntroScreen> {
       appBar: AppBar(
         title: const Text('Expense Tracker - Setup'),
       ),
+      backgroundColor: Color.fromARGB(255, 169, 170, 224), 
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
